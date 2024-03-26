@@ -29,6 +29,7 @@ CREATE TABLE S.Rental_Agent (
   rental_agent_id INT PRIMARY KEY,
   rental_agent_first_name VARCHAR(255),
   rental_agent_last_name VARCHAR(255),
+  rental_agent_gender VARCHAR(255),
   email VARCHAR(255),
   phone_number VARCHAR (255)
 );
